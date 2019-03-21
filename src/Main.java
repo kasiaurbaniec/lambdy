@@ -7,7 +7,7 @@ method("Ala","ma","kota",(s1,s2,s3)->s1.startsWith("a")&&s2.startsWith("a")&&s3.
 method("Ala","ma","kota",(s1,s2,s3)->s1.startsWith("t")&&s2.startsWith("m")||s3.contains("a"));
 method("Ala","ma","kota",(s1,s2,s3)->s1.equalsIgnoreCase("ala")&&s2.contains("m")&&s3.endsWith("ta"));
 method("Ala","ma","kota",(s1,s2,s3)->s1.endsWith("x")&&s2.startsWith("m")&&s3.contains("a"));
-method("Ala","ma","kota",(s1,s2,s3)->s1.contains("b")&&s2.contains("b")&&s3.contains("sa"));
+method("Ala","ma","kota",(s1,s2,s3)->s1.contains("b")&&s2.contains("b")&&s3.contains("papap"));
 
 
 
