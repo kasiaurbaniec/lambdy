@@ -7,8 +7,8 @@ public class Main {
         method("Ala", "miała", "kota", (s1, s2, s3) -> s1.startsWith("t") && s2.startsWith("m") || s3.contains("a"));
         method("x", "y", "z", (s1, s2, s3) -> s1.equalsIgnoreCase("ala") && s2.length()==1 && s3.endsWith("ta"));
         method("x", "y", "x", (s1, s2, s3) -> s1.length()==1 || s2.length()==1 || s3.length()==1);
-        method("Ala", "ma", "kota", (s1, s2, s3) -> s1.contains("b") && s2.contains(s1) && s3.contains("papap"));
-
+        method("Ala", "ala", "kota", (s1, s2, s3) -> s1.equalsIgnoreCase(s2)  && s1.equalsIgnoreCase(s3));
+//kolejna próba
 
     }
 
