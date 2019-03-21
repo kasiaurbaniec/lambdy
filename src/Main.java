@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 method("Ala","ma","kota",(s1,s2,s3)->s1.contains("a")&&s2.contains("a")&&s3.contains("a"));
 method("Ala","ma","kota",(s1,s2,s3)->s1.startsWith("a")&&s2.startsWith("a")&&s3.startsWith("a"));
-method("Ala","ma","kota",(s1,s2,s3)->s1.contains("a")&&s2.contains("a")&&s3.contains("a"));
+method("Ala","ma","kota",(s1,s2,s3)->s1.contains("b")&&s2.contains("b")&&s3.contains("sa"));
 
 
 
